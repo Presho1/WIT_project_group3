@@ -22,6 +22,10 @@ a {
   a:hover {
     text-decoration: none; }
 
+.brand {
+  color: white;
+}
+
 .text-black {
   color: #000 !important; }
 

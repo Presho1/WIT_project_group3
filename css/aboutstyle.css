@@ -32,17 +32,16 @@ body {
     justify-content: center;
     text-align: center; 
     background-color: rgb(0,0,0);
-    background-color: rgba(0,0,0, 0.4); 
+    background-color: rgba(0, 0, 0, 0.61); 
     color: white;
     font-weight: bold;
-    border: 3px solid #f1f1f1;
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 30%;
+    left: 20%;
     transform: translate(-50%, -50%);
     z-index: 2;
     width: 80%;
-    padding: 20px;
+    height: 20%;
     text-align: center;}
   
   .slogan {
@@ -555,7 +554,7 @@ body {
           bottom: 0;
           right: 0;
           top: 0;
-          background: rgba(0, 0, 0, 0.584); }
+          background: rgba(0, 0, 0, 0); }
     .site-blocks-cover, .site-blocks-cover .row {
       min-height: 600px;
       height: calc(100vh); }

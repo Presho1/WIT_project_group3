@@ -156,7 +156,7 @@ body {
   .companyName {
     margin-bottom: 0.5rem;
     font-family: inherit;
-    font-size: 35px;
+    font-size: 40px;
     font-weight: 500;
     line-height: 0.2;
     color: white; }
@@ -164,14 +164,14 @@ body {
   .brand-1 {
     color: white;
     padding-bottom: 20px;
-    font-size: 20px;}
+    font-size: 0px;}
 
   .set-3 { 
     align-items: center;
     justify-content: center;
     text-align: center; 
     background-color: rgb(0,0,0);
-    background-color: rgba(0, 0, 0, 0.774); 
+    background-color: rgba(20, 20, 20, 0.693); 
     color: white;
     position: absolute;
     top: 50%;
@@ -179,13 +179,8 @@ body {
     width: 100%;
     margin: 0;
     transform: translate(-50%, -50%);
-    z-index: 0;}
-  
-  hr {
-    width: 90%;
-    size: 0.2px;
-    margin-left: 80px;}
-  
+    z-index: 2;}
+
 
   .welcomeNote {
     color: white;
@@ -218,13 +213,6 @@ body {
       background-color: white;
     }
 
-    
-  /* .aboutImage {
-    margin-top: 0px;
-    margin-left: 800px;
-    width: 50px;
-    height: 50px;} */
-
   .overview {
     color: rgb(2, 45, 59);}
 
@@ -249,7 +237,7 @@ body {
   .content-right{
     justify-items: right;
     text-align: right;
-    margin-right: 20px;
+    margin-right: 100px;
     font-size: 15px;
     text-align: right;}
   
@@ -299,41 +287,7 @@ body {
         opacity: 1;
         visibility: visible; }
   
-  .btn {
-    position: relative;
-    top: 0; }
-    .btn.btn-2 {
-      letter-spacing: .2em;
-      text-transform: uppercase;
-      margin-top: 10px;
-      font-size: 12px;
-      font-weight: 700; }
-    .btn:hover, .btn:active, .btn:focus {
-      outline: none;
-      -webkit-box-shadow: none !important;
-      box-shadow: none !important; }
-    .btn.btn-secondary {
-      background-color: #e6e7e9;
-      border-color: #e6e7e9;
-      color: #000; }
-    .btn.btn-sm {
-      font-size: 0.9rem; }
-    .btn.btn-primary {
-      color: #fff; }
-    .btn.btn-outline-primary:hover {
-      color: #fff !important; }
-    .btn.btn-black {
-      background: #000 !important;
-      color: #fff; }
-      .btn.btn-black:hover {
-        background: #333333 !important; }
-    .btn.btn-white.btn-outline-white {
-      border-color: #fff;
-      background: transparent;
-      color: #fff; }
-      .btn.btn-white.btn-outline-white:hover {
-        background: #fff;
-        color: #000; }
+
   
   .bg-black {
     background: #000; }
@@ -361,37 +315,7 @@ body {
     .bg-md-height {
       height: 300px; } }
   
-  @media (max-width: 767.98px) {
-    .bg-sm-height {
-      height: 300px; } }
-  
-  .text-gray-100 {
-    color: #f8f9fa !important; }
-  
-  .text-gray-200 {
-    color: #e9ecef !important; }
-  
-  .text-gray-300 {
-    color: #dee2e6 !important; }
-  
-  .text-gray-400 {
-    color: #ced4da !important; }
-  
-  .text-gray-500 {
-    color: #adb5bd !important; }
-  
-  .text-gray-600 {
-    color: #6c757d !important; }
-  
-  .text-gray-700 {
-    color: #495057 !important; }
-  
-  .text-gray-800 {
-    color: #343a40 !important; }
-  
-  .text-gray-900 {
-    color: #212529 !important; }
-  
+
   .row-wrap {
     margin-left: 15px;
     margin-right: 15px; }
@@ -450,13 +374,13 @@ body {
     z-index: 9999;
     background: url(../images/loader.gif) center no-repeat #fff; }
   
-  /* Navbar */
+   Navbar
   .site-navbar-top .site-logo {
     font-size: 2rem; }
   
   .site-navbar-wrap {
     position: relative;
-    z-index: 1;
+    z-index: 0;
     width: 100%; }
     .site-navbar-wrap a {
       color: #000; }

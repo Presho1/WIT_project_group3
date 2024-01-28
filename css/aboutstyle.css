@@ -22,7 +22,7 @@ body {
     a:hover {
       text-decoration: none; }
 
-  .site-mobile-menu {
+  .site-mobile-menu  {
         width: 300px;
         position: fixed;
         right: 0;
@@ -62,7 +62,7 @@ body {
               transition: .3s all ease; }
               .site-mobile-menu .site-mobile-menu-header .site-mobile-menu-close span:hover {
                 color: #25262a; }
-          .site-mobile-menu .site-mobile-menu-header .site-mobile-menu-logo {
+          .site-mobile-menu .site-mobile-menu-header .site-mobile-menu-logo{
             float: left;
             margin-top: 10px;
             margin-left: 0px; }
@@ -80,7 +80,7 @@ body {
           padding: 20px;
           height: calc(100vh - 52px);
           padding-bottom: 150px; }
-        .site-mobile-menu .site-nav-wrap {
+        .site-mobile-menu .site-nav-wrap  {
           padding: 0;
           margin: 0;
           list-style: none;
@@ -161,13 +161,15 @@ body {
     line-height: 0.2;
     color: white; }
 
-
+p {
+  text-align: justify;
+}
   .set-3 { 
     align-items: center;
     justify-content: center;
     text-align: center; 
     background-color: rgb(0,0,0);
-    background-color: rgba(20, 20, 20, 0.693); 
+    background-color: rgba(0, 0, 0, 0.799); 
     color: white;
     position: absolute;
     top: 50%;
@@ -183,12 +185,7 @@ body {
     size: 0.2px;
     margin-left: 80px;}
 
-    .line-2 {
-      width: 90%;
-      margin-right: 50px;
-      size: 0.2px;
-      border-width: 2px;
-      margin-left: 80px;}
+
 
   .welcomeNote {
     color: white;
@@ -222,9 +219,42 @@ body {
     }
 
   .overview {
+    padding-top: 40px;
+    font-size: 40px;
     color: rgb(2, 45, 59);}
 
+    @media (max-width: 600px) {
+      .line-2  {
+        display: flex;
+        align-items: center;
+        padding-bottom: 0;
+        justify-items: left;
+        flex-direction: column;
+        width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+      }
+    }
 
+    @media (max-width: 600px) {
+      .content-left {
+        display: flex;
+        align-items: center;
+        padding-bottom: 0;
+        justify-items: left;
+        flex-direction: column;
+        width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+      }
+    }
+
+    @media (max-width: 600px) {
+      .content-right {
+        display: flex;
+        align-items: center;
+        padding-bottom: 0;
+        justify-items: left;
+        flex-direction: column;
+        width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+      }
+    }
   .main {
     display: flex;
     align-items: center;
@@ -232,8 +262,21 @@ body {
     justify-content: center;}
   
 
+  .line-2 {
+    width: 90%;
+    margin-right: 50px;
+    padding: 10px;
+    float: left;
+    width: 5%;
+    size: 0.2px;
+    border-width: 2px;
+    margin-left: 80px;}
+
   .content-left {
     justify-items: center;
+    padding: 20px;
+    float: left;
+    width: 40%;
     align-items: center;
     text-align:justify;
     font-size: 15px;
@@ -243,6 +286,9 @@ body {
   .content-right{
     justify-items: right;
     text-align: right;
+    padding: 20px;
+    float: left;
+    width: 60%;
     margin-right: 100px;
     font-size: 15px;
     text-align: right;}
@@ -300,7 +346,7 @@ body {
   
   .site-section {
     padding: 0em 0; }
-    @media (min-width: 68px) {
+    @media (min-width: 38px) {
       .site-section {
         padding: 7em 0; } }
     .site-section.site-section-sm {

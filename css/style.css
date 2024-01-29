@@ -46,7 +46,7 @@ a {
     justify-content: center;
     text-align: center; 
     background-color: rgb(0,0,0);
-    background-color: rgba(0, 0, 0, 0.723); 
+    background-color: rgba(0, 0, 0, 0.553); 
     color: white;
     position: absolute;
     top: 50%;
@@ -282,6 +282,7 @@ a {
       position: absolute;
       bottom: 0; }
 
+      
 .site-loader {
   position: fixed;
   left: 0px;

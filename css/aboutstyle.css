@@ -22,6 +22,13 @@ body {
     a:hover {
       text-decoration: none; }
 
+
+  .foot {
+    text-align: justify;
+    justify-items: left;
+    color: rgb(151, 150, 150);
+  }
+
   .site-mobile-menu  {
         width: 300px;
         position: fixed;
@@ -163,6 +170,7 @@ body {
 
 p {
   text-align: justify;
+  text-align-last: center;
 }
   .set-3 { 
     align-items: center;
@@ -269,6 +277,7 @@ p {
     font-weight: 900;
     display: flex;
     justify-content: center;
+    margin-left: 100px;
     align-items: center;
     margin-top: 30px;
     font-size: 12px;}
@@ -454,6 +463,7 @@ p {
 
   .unit-8 .accordion-item .heading {
     font-size: 1.2rem;
+    text-align: center;
     font-weight: 400;
     padding: 10px 0; }
     .unit-8 .accordion-item .heading > a {
@@ -472,6 +482,8 @@ p {
       .unit-8 .accordion-item .heading > a[aria-expanded="true"]:before {
         font-family: 'icomoon';
         position: absolute;
+        text-align: center;
+        justify-content: center;
         content: "\e316";
         -webkit-transition: .3s all ease;
         -o-transition: .3s all ease;
@@ -484,6 +496,7 @@ p {
         color: #ccc;
         font-family: 'icomoon';
         position: absolute;
+        justify-content: center;
         -webkit-transition: .3s all ease;
         -o-transition: .3s all ease;
         transition: .3s all ease; }

@@ -29,6 +29,9 @@ a {
   line-height: 0.2;
   color: white; }
 
+  p {
+    text-align: justify;
+  }
   
 .line {
   width: 90%;
@@ -840,7 +843,6 @@ a {
       width: 28px;
       height: 4px;
       border: none;
-      float: left;
       background: #cccccc;
       -webkit-transition: .3s all ease;
       -o-transition: .3s all ease;

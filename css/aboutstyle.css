@@ -255,13 +255,18 @@ p {
     background-color: #e1e7fa3d;
     padding: 18px 40px;
     font-weight: 900;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
     display: flex;
     justify-content: center;
-    margin-left: 100px;
     align-items: center;
-    margin-top: 30px;
+    margin-top: 0;
     font-size: 12px;}
 
+    
   .coreValues:hover {
     color: white;
     background-color: rgb(6, 27, 48);}
@@ -341,6 +346,10 @@ p {
     .responsive-md-height {
       height: 500px !important;
       margin-bottom: 15px; } }
+
+  .faq {
+    text-align: center;
+  }
   
   .site-footer {
     padding: 4em 0;

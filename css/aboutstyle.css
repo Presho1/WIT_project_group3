@@ -246,26 +246,6 @@ p {
     border-width: 2px;
     margin-left: 80px;}
 
-  .content-left {
-    justify-items: center;
-    padding: 20px;
-    float: left;
-    width: 40%;
-    align-items: center;
-    text-align:justify;
-    font-size: 15px;
-    font-family: "Roboto Mono", SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-    font-family: "Nunito Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";}
-
-  .content-right{
-    justify-items: right;
-    text-align: right;
-    padding: 20px;
-    float: left;
-    width: 60%;
-    margin-right: 100px;
-    font-size: 15px;
-    text-align: right;}
   
   .coreValues {
     border-style: solid;
@@ -292,9 +272,9 @@ p {
   .site-wrap {
     position: relative; }
     .site-wrap:before {
-      -webkit-transition: .3s all ease-in-out;
-      -o-transition: .3s all ease-in-out;
-      transition: .3s all ease-in-out;
+      -webkit-transition: .1s all ease-in-out;
+      -o-transition: .1s all ease-in-out;
+      transition: .1s all ease-in-out;
       background: rgba(0, 0, 0, 0.6);
       content: "";
       position: absolute;
@@ -393,15 +373,16 @@ p {
         position: absolute;
         bottom: 0; }
   
-  /* .site-loader {
+  .site-loader {
     position: fixed;
     left: 0px;
     top: 0px;
     width: 100%;
-    height: 20%;
+    height: 100%;
     z-index: 9999;
     background: url(../images/loader.gif) center no-repeat #fff; }
-   */
+  
+
    Navbar
   .site-navbar-top .site-logo {
     font-size: 2rem; }

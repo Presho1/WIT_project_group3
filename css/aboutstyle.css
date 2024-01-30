@@ -29,6 +29,11 @@ body {
     color: rgb(151, 150, 150);
   }
 
+  .faq{
+    justify-content: center;
+    text-align: center;
+  }
+
   .site-mobile-menu  {
         width: 300px;
         position: fixed;
@@ -263,10 +268,9 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 0;
+    margin-top: 30px;
     font-size: 12px;}
 
-    
   .coreValues:hover {
     color: white;
     background-color: rgb(6, 27, 48);}
@@ -392,7 +396,7 @@ p {
     background: url(../images/loader.gif) center no-repeat #fff; }
   
 
-   Navbar
+   /* Navbar */
   .site-navbar-top .site-logo {
     font-size: 2rem; }
   

@@ -22,18 +22,7 @@ body {
     a:hover {
       text-decoration: none; }
 
-   .terms {
-    margin-top: 50px;
-    margin-bottom: 100px;
-   }
-
-  .foot {
-    text-align: justify;
-    justify-items: left;
-    color: rgb(151, 150, 150);
-  }
-
-  .site-mobile-menu  {
+  .site-mobile-menu {
         width: 300px;
         position: fixed;
         right: 0;
@@ -73,7 +62,7 @@ body {
               transition: .3s all ease; }
               .site-mobile-menu .site-mobile-menu-header .site-mobile-menu-close span:hover {
                 color: #25262a; }
-          .site-mobile-menu .site-mobile-menu-header .site-mobile-menu-logo{
+          .site-mobile-menu .site-mobile-menu-header .site-mobile-menu-logo {
             float: left;
             margin-top: 10px;
             margin-left: 0px; }
@@ -91,7 +80,7 @@ body {
           padding: 20px;
           height: calc(100vh - 52px);
           padding-bottom: 150px; }
-        .site-mobile-menu .site-nav-wrap  {
+        .site-mobile-menu .site-nav-wrap {
           padding: 0;
           margin: 0;
           list-style: none;
@@ -172,21 +161,21 @@ body {
     line-height: 0.2;
     color: white; }
 
-  .terms-and-con {
-    margin-top: 140px;
-  }
+    .policy {
+        margin-top: 120px;
+      }
+    
+      .policy-1 {
+        margin-top: 50px;
+        margin-bottom: 100px;
+       }
 
-
-p {
-  text-align: justify;
-  text-align-last: center;
-}
   .set-3 { 
     align-items: center;
     justify-content: center;
     text-align: center; 
     background-color: rgb(0,0,0);
-    background-color: rgba(0, 0, 0, 0.825); 
+    background-color: rgba(0, 0, 0, 0.803); 
     color: white;
     position: absolute;
     top: 50%;
@@ -202,26 +191,85 @@ p {
     size: 0.2px;
     margin-left: 80px;}
 
-
+    .line-2 {
+      margin-left: 90px;}
 
   .welcomeNote {
-    color: rgb(0, 0, 0);
-    text-align: center;
-    font-family: "Nunito Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";}
+    color: white;
+    font-family: "Nunito Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 17px;}
+
+  .explore {
+    border-style: solid;
+    border-width: 0.5px;
+    border-color: white;
+    color: rgb(255, 255, 255);
+    background-color: rgba(126, 86, 13, 0.553);
+    padding: 15px 40px;
+    font-weight: 900;
+    display: flex;
+    margin: 0;
+    position: absolute;
+    top: 120%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    font-size: 12px;}
+
+    .explore:hover {
+      color: rgb(46, 30, 2);
+      border-color: rgb(58, 40, 8);
+      background-color: white;
+    }
 
   .overview {
-    padding-top: 40px;
-    font-size: 40px;
-    color: rgb(0, 0, 0);}
-
-    .leadership {
-      font-size: 40px;
-      color: rgb(0, 0, 0);}
+    color: rgb(83, 82, 82);}
 
 
+  .main {
+    display: flex;
+    align-items: center;
+    padding-bottom: 0;
+    justify-content: center;}
+  
+
+  .content-left {
+    justify-items: center;
+    align-items: center;
+    text-align:justify;
+    font-size: 15px;
+    font-family: "Roboto Mono", SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    font-family: "Nunito Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";}
+
+  .content-right{
+    justify-items: right;
+    text-align: right;
+    margin-right: 100px;
+    font-size: 15px;
+    text-align: right;}
+  
+  .coreValues {
+    border-style: solid;
+    border-width: 0.5px;
+    color: rgb(2, 23, 44);
+    background-color: #e1e7fa3d;
+    padding: 18px 40px;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    font-size: 12px;}
+
+  .coreValues:hover {
+    color: white;
+    background-color: rgb(6, 27, 48);}
 
   h5{
-    color: rgb(0, 0, 0);
+    color: rgb(91, 91, 91);
   }
   .site-wrap {
     position: relative; }
@@ -256,7 +304,7 @@ p {
   
   .site-section {
     padding: 0em 0; }
-    @media (min-width: 38px) {
+    @media (min-width: 68px) {
       .site-section {
         padding: 7em 0; } }
     .site-section.site-section-sm {
@@ -327,7 +375,7 @@ p {
         position: absolute;
         bottom: 0; }
   
-  .site-loader {
+  /* .site-loader {
     position: fixed;
     left: 0px;
     top: 0px;
@@ -335,7 +383,7 @@ p {
     height: 20%;
     z-index: 9999;
     background: url(../images/loader.gif) center no-repeat #fff; }
-  
+   */
    Navbar
   .site-navbar-top .site-logo {
     font-size: 2rem; }
@@ -373,7 +421,7 @@ p {
         display: inline-block;
         padding: 10px 0px 7px 6px; }
         .site-navbar .site-navigation .site-menu > li > a {
-          padding: 10px 10px 12px 10px;
+          padding: 10px 10px 0px 10px;
           letter-spacing: .05em;
           color: rgba(255, 255, 255, 0.6);
           text-decoration: none !important; }
@@ -384,10 +432,11 @@ p {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top; }
+    
 
     .site-blocks-cover.inner-page-cover-1, .site-blocks-cover.inner-page-cover-1 .row {
         min-height: 400px;
-        height: calc(70vh); }
+        height: calc(50vh); }
     .site-blocks-cover h1 {
       font-weight: 900;
       color: #fff;
@@ -397,7 +446,6 @@ p {
 
   .unit-8 .accordion-item .heading {
     font-size: 1.2rem;
-    text-align: center;
     font-weight: 400;
     padding: 10px 0; }
     .unit-8 .accordion-item .heading > a {
@@ -416,8 +464,6 @@ p {
       .unit-8 .accordion-item .heading > a[aria-expanded="true"]:before {
         font-family: 'icomoon';
         position: absolute;
-        text-align: center;
-        justify-content: center;
         content: "\e316";
         -webkit-transition: .3s all ease;
         -o-transition: .3s all ease;
@@ -430,10 +476,7 @@ p {
         color: #ccc;
         font-family: 'icomoon';
         position: absolute;
-        justify-content: center;
         -webkit-transition: .3s all ease;
         -o-transition: .3s all ease;
         transition: .3s all ease; }
   
-
-
